@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+.projects-section {
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #007D26, #00C6AF);
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  color: #fff;
+}
+
+.projects-section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+.project-card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 45%;
+  text-align: left;
+  transition: transform 0.3s;
+  position: relative;
+  text-decoration: none;
+  color: #333;
+}
+
+.project-card:hover {
+  transform: translateY(-10px);
+}
+
+.project-logo-wrapper {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aeroschool-card .project-logo-wrapper {
+  background-color: palegoldenrod;
+}
+
+.aeroschool-logo {
+  width: 92%;
+}
+
+.adas-logo-wrapper {
+  background-color: #000;
+}
+
+.project-info {
+  padding: 20px;
+}
+
+.project-info h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.project-info p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.project-icons {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.project-icons img {
+  width: 24px;
+  height: 24px;
+}
+
+@media (max-width: 768px) {
+  .project-card {
+    width: 90%;
+  }
+}
