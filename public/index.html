@@ -4,42 +4,148 @@
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Ayoub Ouassaf - Full Stack Developer specializing in React.js, Node.js, and mobile application development. Available for freelance and contract opportunities. Based in Aix En Provence, France.">
+    <meta name="keywords" content="Ayoub Ouassaf, Full Stack Developer, React.js, Node.js, Mobile Development, Freelance Developer, Contract Developer, Aix En Provence, France">
+    <meta property="og:title" content="Ayoub Ouassaf - Full Stack Developer">
+    <meta property="og:description" content="Specializing in React.js, Node.js, and mobile application development. Available for freelance and contract opportunities.">
+    <meta property="og:url" content="https://ayoubdev.pro">
+    <meta property="og:type" content="website">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
-
     <meta name="theme-color" content="#000000" />
-    <meta
-      name="description"
-      content="Web site created using create-react-app"
-    />
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
+    <title>Ayoub Ouassaf - Full Stack Developer | React.js, Node.js, Mobile Development</title>
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <!-- Structured Data Markup -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Ayoub Ouassaf",
+      "url": "https://ayoubdev.pro",
+      "sameAs": [
+        "https://www.linkedin.com/in/ayoub-ouassaf",
+        "https://github.com/AyoubOUASSAF"
+      ],
+      "jobTitle": "Full Stack Developer",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Freelance"
+      },
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Aix En Provence",
+        "addressCountry": "France"
+      }
+    }
+    </script>
+
+    <!-- CSS for Consent Banner -->
+    <style>
+      #consent-banner {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        background-color: white;
+        color: black;
+        text-align: center;
+        padding: 20px;
+        box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        z-index: 1000;
+        border-radius: 10px 10px 0 0;
+        font-family: Arial, sans-serif;
+      }
+      #consent-banner button {
+        background-color: #007bff;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        margin-left: 10px;
+        border-radius: 5px;
+      }
+      #consent-banner button:hover {
+        background-color: #0056b3;
+      }
+      #consent-banner .decline-button {
+        background-color: red;
+      }
+      #consent-banner .decline-button:hover {
+        background-color: darkred;
+      }
+    </style>
   </head>
   <body>
     <noscript>You need to enable JavaScript to run this app.</noscript>
+    
+    <!-- Consent Banner -->
+    <div id="consent-banner">
+      <span id="consent-text"></span>
+      <button id="accept-button" onclick="acceptConsent()"></button>
+      <button id="decline-button" class="decline-button" onclick="declineConsent()"></button>
+    </div>
     <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <!-- JavaScript for Consent Banner -->
+    <script>
+      const translations = {
+        en: {
+          consent_text: "This website uses cookies to ensure you get the best experience on our website.",
+          accept: "Accept",
+          decline: "Decline"
+        },
+        fr: {
+          consent_text: "Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
+          accept: "Accepter",
+          decline: "Refuser"
+        },
+        it: {
+          consent_text: "Questo sito utilizza i cookie per assicurarti di ottenere la migliore esperienza sul nostro sito.",
+          accept: "Accetta",
+          decline: "Rifiuta"
+        }
+      };
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+      function setConsentBannerLanguage(lang) {
+        document.getElementById('consent-text').innerText = translations[lang].consent_text;
+        document.getElementById('accept-button').innerText = translations[lang].accept;
+        document.getElementById('decline-button').innerText = translations[lang].decline;
+      }
+
+      function acceptConsent() {
+        localStorage.setItem('consentGiven', 'true');
+        document.getElementById('consent-banner').style.display = 'none';
+        loadGoogleAnalytics();
+      }
+
+      function declineConsent() {
+        localStorage.setItem('consentGiven', 'false');
+        document.getElementById('consent-banner').style.display = 'none';
+      }
+
+      function loadGoogleAnalytics() {
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){window.dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'G-HJZMC0EXXG');
+        
+        const script = document.createElement('script');
+        script.src = 'https://www.googletagmanager.com/gtag/js?id=G-HJZMC0EXXG';
+        script.async = true;
+        document.head.appendChild(script);
+      }
+
+      window.onload = function() {
+        const userLang = navigator.language || navigator.userLanguage;
+        const lang = userLang.split('-')[0]; // Extract the language code
+        setConsentBannerLanguage(lang);
+
+        if (localStorage.getItem('consentGiven') === 'true') {
+          loadGoogleAnalytics();
+        } else if (localStorage.getItem('consentGiven') === 'false') {
+          document.getElementById('consent-banner').style.display = 'none';
+        }
+      }
+    </script>
   </body>
 </html>

@@ -1,12 +1,13 @@
 {
     "about_me": "À propos de moi",
-    "about" : "À propos",
+    "about": "À propos",
     "age": "Âge",
     "based_in": "Basé à",
     "experience": "Expérience",
     "years": "années",
     "contact": "Contact",
     "country": "France",
+    "titleabt": "Développeur Web Full Stack.",
     "description1": "Je suis un développeur web passionné avec une solide expérience dans le développement de sites Web et d'applications de haute qualité. Au fil des ans, j'ai perfectionné mes compétences en JavaScript, React, Angular, et plus encore.",
     "description2": "J'ai une expérience professionnelle dans plusieurs pays, dont le Maroc, l'Italie et la France. Mes rôles ont impliqué le développement de sites Web réactifs, l'intégration d'API tierces, la sécurité des données et l'optimisation des performances.",
     "tags": [
@@ -61,14 +62,14 @@
     "creativity": "Créativité",
     "leadership": "Leadership",
     "time_management": "Gestion du Temps",
-    "critical_thinking": "Pensée Critique",
+    "critical_thinking": "Empathie",
     "projects": "Projets",
     "aero_school_khouribga": "Aero School Khouribga",
     "aero_school_description": "Implanté en plein cœur de la ville phosphatière de Khouribga, AERO SCHOOL KHOURIBGA est le seul institut de la région et de la ville pour la formation du Personnel Navigant Commercial. Il constitue un incontournable point de liaison et un centre reconnu de compétences dans les domaines de l'aviation et du tourisme.",
     "adas_app": "ADAS App",
     "adas_app_description1": "ADAS est un système d'adresse numérique qui vous permet de transformer n'importe quel emplacement en une adresse numérique. Grâce à la technologie de géocodage, la plateforme peut transformer n'importe quel emplacement sur la surface de la terre en une adresse numérique facile et mémorable.",
     "adas_app_description2": "Passez à un niveau supérieur avec une adresse numérique et évitez les explications complexes lorsque vous donnez des directions. Une adresse d'exemple ressemble à UG-890-768 où UG est le code pays pour l'Ouganda.",
-    "get_in_touch": "Contactez-nous",
+    "get_in_touch": "Contact",
     "name": "Nom",
     "email": "Email",
     "message": "Message",
@@ -77,5 +78,8 @@
     "email_required": "L'email est requis",
     "message_required": "Le message est requis",
     "ouassaf_ayoub": "OUASSAF Ayoub",
-    "footer_text": "<i class='fas fa-code'></i> avec <i class='fas fa-heart'></i> par&#160;<a rel='noopener' href='https://github.com/AyoubOUASSAF' aria-label='My GitHub'><span class='badge bg-dark'>OUASSAF Ayoub</span></a> &#160; en utilisant <i class='fab fa-react react-icon'></i>"
+    "footer_text": "<i class='fas fa-code'></i> avec <i class='fas fa-heart'></i> par&#160;<a rel='noopener' href='https://github.com/AyoubOUASSAF' aria-label='My GitHub'><span class='badge bg-dark'>OUASSAF Ayoub</span></a> &#160; en utilisant <i class='fab fa-react react-icon'></i>",
+    "consent_text": "Ce site utilise des cookies pour vous garantir la meilleure expérience sur notre site.",
+    "accept": "Accepter",
+    "decline": "Refuser"
 }

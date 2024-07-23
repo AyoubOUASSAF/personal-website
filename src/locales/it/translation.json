@@ -4,9 +4,10 @@
     "based_in": "Basato a",
     "experience": "Esperienza",
     "years": "anni",
-    "about" : "Chi sono",
-    "contact" : "Contattami",
+    "about": "Chi sono",
+    "contact": "Contattami",
     "country": "Francia",
+    "titleabt": "Sviluppatore Web Full Stack.",
     "description1": "Sono uno sviluppatore web appassionato con una solida esperienza nello sviluppo di siti Web e applicazioni di alta qualità. Nel corso degli anni, ho perfezionato le mie competenze in JavaScript, React, Angular e altro ancora.",
     "description2": "Ho esperienza professionale in vari paesi tra cui Marocco, Italia e Francia. I miei ruoli hanno riguardato lo sviluppo di siti Web reattivi, l'integrazione di API di terze parti, la sicurezza dei dati e l'ottimizzazione delle prestazioni.",
     "tags": [
@@ -61,7 +62,7 @@
     "creativity": "Creatività",
     "leadership": "Leadership",
     "time_management": "Gestione del Tempo",
-    "critical_thinking": "Pensiero Critico",
+    "critical_thinking": "Empatia",
     "projects": "Progetti",
     "aero_school_khouribga": "Aero School Khouribga",
     "aero_school_description": "Situata nel cuore della città dei fosfati di Khouribga, AERO SCHOOL KHOURIBGA è l'unico istituto della regione e della città per la formazione dell'equipaggio di volo commerciale. È un punto di riferimento essenziale e un centro riconosciuto di competenza nei settori dell'aviazione e del turismo.",
@@ -77,5 +78,8 @@
     "email_required": "L'email è obbligatoria",
     "message_required": "Il messaggio è obbligatorio",
     "ouassaf_ayoub": "OUASSAF Ayoub",
-    "footer_text": "<i class='fas fa-code'></i> con <i class='fas fa-heart'></i> di&#160;<a rel='noopener' href='https://github.com/AyoubOUASSAF' aria-label='My GitHub'><span class='badge bg-dark'>OUASSAF Ayoub</span></a> &#160; utilizzando <i class='fab fa-react react-icon'></i>"
+    "footer_text": "<i class='fas fa-code'></i> con <i class='fas fa-heart'></i> di&#160;<a rel='noopener' href='https://github.com/AyoubOUASSAF' aria-label='My GitHub'><span class='badge bg-dark'>OUASSAF Ayoub</span></a> &#160; utilizzando <i class='fab fa-react react-icon'></i>",
+    "consent_text": "Questo sito utilizza i cookie per assicurarti di ottenere la migliore esperienza sul nostro sito.",
+    "accept": "Accetta",
+    "decline": "Rifiuta"
 }

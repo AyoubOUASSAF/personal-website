@@ -1,10 +1,13 @@
 {
     "about_me": "About Me",
+    "about": "About",
     "age": "Age",
     "based_in": "Based in",
     "experience": "Experience",
+    "contact":"Contact",
     "years": "years",
     "country": "France",
+    "titleabt" : "Full Stack Web Developer.",
     "description1": "I am a passionate web developer with a strong background in developing high-quality websites and applications. Over the years, I have honed my skills in JavaScript, React, Angular, and more.",
     "description2": "I have professional experience working in various countries including Morocco, Italy, and France. My roles have involved developing responsive websites, integrating third-party APIs, ensuring data security, and optimizing performance.",
     "tags": [
@@ -59,7 +62,7 @@
     "creativity": "Creativity",
     "leadership": "Leadership",
     "time_management": "Time Management",
-    "critical_thinking": "Critical Thinking",
+    "critical_thinking": "Empathy",
     "projects": "Projects",
     "aero_school_khouribga": "Aero School Khouribga",
     "aero_school_description": "Located in the heart of the phosphate city of Khouribga, AERO SCHOOL KHOURIBGA is the only institute in the region and the city for the training of Commercial Flight Crew. It is a key hub and a recognized center of expertise in the fields of aviation and tourism.",
@@ -75,5 +78,9 @@
     "email_required": "Email is required",
     "message_required": "Message is required",
     "ouassaf_ayoub": "OUASSAF Ayoub",
-    "footer_text": "<i class='fas fa-code'></i> with <i class='fas fa-heart'></i> by&#160;<a rel='noopener' href='https://github.com/AyoubOUASSAF' aria-label='My GitHub'><span class='badge bg-dark'>OUASSAF Ayoub</span></a> &#160; using <i class='fab fa-react react-icon'></i>"
-}
+    "footer_text": "<i class='fas fa-code'></i> with <i class='fas fa-heart'></i> by&#160;<a rel='noopener' href='https://github.com/AyoubOUASSAF' aria-label='My GitHub'><span class='badge bg-dark'>OUASSAF Ayoub</span></a> &#160; using <i class='fab fa-react react-icon'></i>",
+        "consent_text": "This website uses cookies to ensure you get the best experience on our website.",
+        "accept": "Accept",
+        "decline": "Decline"
+    }
+    

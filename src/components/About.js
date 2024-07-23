@@ -20,21 +20,21 @@ const About = () => {
           <div className="about-details">
             <div className="about-detail-item">
               <img src={ageIcon} alt={t('age')} className="icon" />
-              <span><strong>{t('age')}:</strong> 31</span>
+              <span><strong>:</strong> 31 </span>
             </div>
             <div className="about-detail-item">
               <img src={locationIcon} alt={t('based_in')} className="icon" />
-              <span><strong>{t('based_in')}:</strong> {t('country')}</span>
+              <span><strong>:</strong> {t('country')}</span>
             </div>
             <div className="about-detail-item">
               <img src={experienceIcon} alt={t('experience')} className="icon" />
-              <span><strong>{t('experience')}:</strong> 5 {t('years')}</span>
+              <span><strong>:</strong> 5 {t('years')}</span>
             </div>
           </div>
         </div>
         <div className="about-description-card">
           <div className="about-description">
-            <h1 className="logo">&lt; <strong>A.OUASSAF</strong> /&gt;</h1>
+            <h1>{t('titleabt')}</h1>
             <p>{t('description1')}</p>
             <p>{t('description2')}</p>
             <div className="tags">

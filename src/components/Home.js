@@ -71,10 +71,10 @@ const Home = () => {
               <a href="mailto:ouassaf.ayoub@gmail.com" target="_blank" rel="noopener noreferrer">
                 <img src={emailIcon} alt="Email" />
               </a>
-              <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener noreferrer">
+              <a href="https://www.linkedin.com/in/ayoub-ouassaf/" target="_blank" rel="noopener noreferrer">
                 <img src={linkedInIcon} alt="LinkedIn" />
               </a>
-              <a href="https://github.com/your-profile" target="_blank" rel="noopener noreferrer">
+              <a href="  https://github.com/AyoubOUASSAF" target="_blank" rel="noopener noreferrer">
                 <img src={githubIcon} alt="GitHub" />
               </a>
             </div>
